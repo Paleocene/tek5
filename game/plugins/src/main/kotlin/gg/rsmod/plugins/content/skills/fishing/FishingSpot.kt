@@ -2,7 +2,6 @@ package gg.rsmod.plugins.content.skills.fishing
 
 import gg.rsmod.plugins.api.cfg.Npcs
 
-// TODO: make fishing spots move
 enum class FishingSpot(
     val objectIds: List<Int>,
     val tools: List<FishingTool>
