@@ -316,7 +316,7 @@ object Npcs {
     const val FISHING_SPOT_NET_BAIT = 323
     const val FISHING_SPOT_324 = 324
     const val FISHING_SPOT_325 = 325
-    const val FISHING_SPOT_FROGSPAWN = 326
+    const val FISHING_SPOT_326 = 326
     const val FISHING_SPOT_327 = 327
     const val FISHING_SPOT_328 = 328
     const val FISHING_SPOT_329 = 329

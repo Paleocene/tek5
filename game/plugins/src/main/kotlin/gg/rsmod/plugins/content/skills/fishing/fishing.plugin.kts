@@ -1,7 +1,7 @@
 package gg.rsmod.plugins.content.skills.fishing
 
 val MOVEMENT_TIMER = TimerKey()
-val MOVEMENT_DELAY = 280..530
+val MOVEMENT_DELAY = 30..30
 
 FishingSpot.values().forEach { spot ->
     spot.objectIds.forEach { spotId ->
