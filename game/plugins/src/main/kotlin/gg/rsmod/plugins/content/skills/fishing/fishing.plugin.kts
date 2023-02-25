@@ -1,11 +1,7 @@
 package gg.rsmod.plugins.content.skills.fishing
 
-import gg.rsmod.plugins.content.magic.TeleportType
-import gg.rsmod.plugins.content.magic.teleport
-
 val MOVEMENT_TIMER = TimerKey()
-//val MOVEMENT_DELAY = 280..530
-val MOVEMENT_DELAY = 15..15
+val MOVEMENT_DELAY = 280..530
 
 FishingSpot.values().forEach { spot ->
     spot.objectIds.forEach { spotId ->
@@ -32,8 +28,11 @@ FishingSpot.values().forEach { spot ->
 
 on_timer(MOVEMENT_TIMER) {
     FishingSpotGroup.forTile(npc.tile)?.let { group ->
-        npc.moveTo(group.newTile(npc.tile))
-//        npc.walkTo(group.newTile(npc.tile), detectCollision = false)
-        npc.timers[MOVEMENT_TIMER] = world.random(MOVEMENT_DELAY)
+        // TODO: use npc.moveTo instead
+        world.remove(npc)
+        val newNpc = Npc(npc.id, group.newTile(npc.tile), world)
+        world.spawn(newNpc)
+//        npc.moveTo(group.newTile(npc.tile))
+//        npc.timers[MOVEMENT_TIMER] = world.random(MOVEMENT_DELAY)
     }
 }
