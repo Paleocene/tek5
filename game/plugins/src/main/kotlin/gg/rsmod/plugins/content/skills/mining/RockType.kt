@@ -25,7 +25,7 @@ enum class RockType(
         varrockArmourAffected = Items.VARROCK_ARMOUR_1,
         lowChance = 128,
         highChance = 392,
-        objectIds = arrayOf(Objs.ROCKS_15504, Objs.ROCKS_15503, Objs.ROCKS_15505, Objs.ROCKS_5766, Objs.ROCKS_5767)
+        objectIds = arrayOf(Objs.ROCKS_15504, Objs.ROCKS_15503, Objs.ROCKS_15505, Objs.ROCKS_5766, Objs.ROCKS_5767, Objs.ROCKS_10577, Objs.ROCKS_10578, Objs.ROCKS_10579, Objs.ROCKS_11189, Objs.ROCKS_11190, Objs.ROCKS_11191)
     ),
     COPPER(
         level = 1,
@@ -46,7 +46,7 @@ enum class RockType(
         varrockArmourAffected = Items.VARROCK_ARMOUR_1,
         lowChance = 102,
         highChance = 379,
-        objectIds = arrayOf(Objs.ROCKS_3038, Objs.ROCKS_3245, Objs.ROCKS_11933, Objs.ROCKS_11959, Objs.ROCKS_11957,
+        objectIds = arrayOf(Objs.ROCKS_3038, Objs.ROCKS_3245, Objs.ROCKS_11933, Objs.ROCKS_11934, Objs.ROCKS_11935, Objs.ROCKS_11959, Objs.ROCKS_11957, Objs.ROCKS_11948, Objs.ROCKS_11949, Objs.ROCKS_11950,
             Objs.ROCKS_11958, Objs.ROCKS_9713, Objs.ROCKS_9711, Objs.ROCKS_9716, Objs.ROCKS_9714, Objs.ROCKS_5776, Objs.ROCKS_5777, Objs.ROCKS_5778)
     ),
     IRON(
@@ -68,7 +68,7 @@ enum class RockType(
         varrockArmourAffected = Items.VARROCK_ARMOUR_1,
         lowChance = 24,
         highChance = 200,
-        objectIds = arrayOf(Objs.ROCKS_37306, Objs.ROCKS_37304, Objs.ROCKS_37305, Objs.ROCKS_2311, Objs.ROCKS_37670, Objs.ROCKS_11950, Objs.ROCKS_11948, Objs.ROCKS_11949)
+        objectIds = arrayOf(Objs.ROCKS_37306, Objs.ROCKS_37304, Objs.ROCKS_37305, Objs.ROCKS_2311, Objs.ROCKS_37670, Objs.ROCKS_11950, Objs.ROCKS_11948, Objs.ROCKS_11949, Objs.ROCKS_11186, Objs.ROCKS_11187, Objs.ROCKS_11188)
     ),
     COAL(
         level = 30,
@@ -79,7 +79,7 @@ enum class RockType(
         lowChance = 15,
         highChance = 100,
         objectIds = arrayOf(Objs.ROCKS_11932, Objs.ROCKS_11930, Objs.ROCKS_11963, Objs.ROCKS_11964, Objs.ROCKS_11931, Objs.ROCKS_2096, Objs.ROCKS_2097, Objs.ROCKS_14850, Objs.ROCKS_14851, Objs.ROCKS_14852,
-            Objs.ROCKS_3233, Objs.ROCKS_3032, Objs.ROCKS_5770, Objs.ROCKS_5771, Objs.ROCKS_5772)
+            Objs.ROCKS_3233, Objs.ROCKS_3032, Objs.ROCKS_5770, Objs.ROCKS_5771, Objs.ROCKS_5772, Objs.ROCKS_11183, Objs.ROCKS_11184, Objs.ROCKS_11185)
     ),
     GOLD(
         level = 40,
@@ -90,7 +90,7 @@ enum class RockType(
         lowChance = 6,
         highChance = 75,
         objectIds = arrayOf(Objs.ROCKS_37310, Objs.ROCKS_37312, Objs.ROCKS_9720, Objs.ROCKS_9722, Objs.ROCKS_11951, Objs.ROCKS_11952, Objs.ROCKS_11953, Objs.ROCKS_2098, Objs.ROCKS_2099,
-            Objs.ROCKS_5768, Objs.ROCKS_5769)
+            Objs.ROCKS_5768, Objs.ROCKS_5769, Objs.ROCKS_11183, Objs.ROCKS_11184, Objs.ROCKS_11185)
     ),
     MITHRIL(
         level = 55,
